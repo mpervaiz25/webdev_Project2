@@ -1,5 +1,5 @@
 /* Set default styles for block elements */
-article, aside, details, figcaption, figure,
+article, aside, details, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
