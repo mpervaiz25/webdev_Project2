@@ -3,46 +3,61 @@
   <head>
     <meta charset="UTF-8">
 	<title>Resume</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+	
   </head>
   
   <body>
     <header>
-	  <nav>
-	    <ul>
+			<nav id="main-navbar">
+				<ul>
           <li><a href="index.html">Resume</a></li>
           <li><a href="trees.html">Trees</a></li>
           <li><a href="hobbies.html">Hobbies</a></li>
         </ul>
-	  </nav>
+			</nav>
 	</header>
-	<h1>Mashell Pervaiz</h1>
+	
+	<main>
+		<h1>Mashell Pervaiz</h1>
     <h2>Professional Resume</h2>
+		
+		<section id="contact">
     <h3>Contact Information</h3>
     <p>
-      Email: mpervaiz@hawk.iit.edu.com<br>
+      Email:<a href="mailto:mpervaiz@hawk.iit.edu.com">mpervaiz@hawk.iit.edu.com</a><br>
       Phone: 847-456-7890<br>
       LinkedIn: <a href="https://www.linkedin.com/in/mashell-pervaiz-321502235/" target="_blank">Mashell Pervaiz</a>
     </p>
 	
+	<section id="work-experience">
 	<h3>Work Experience</h3>
     <ul>
       <li>
         <h4>Interlibrary Loan Department, Galvin Library</h4>
         <p>AUG 2021 - Present</p>
-        <p>-Complete Lending and Borrowing Requests</p>
-		<p>-Scan physical books to update online database</p>
-		<p>-Search stacks for Journals and Periodicals</p>
+				<ul>
+					<li>-Complete Lending and Borrowing Requests</li>
+					<li>-Scan physical books to update online database</li>
+					<li>-Search stacks for Journals and Periodicals</li>
+				</ul>
       </li>
       <li>
         <h4>Exploration Space Lead, Galvin Library</h4>
         <p>AUG 2023 - Present</p>
-        <p>-Monitor 3d printer usage</p>
-		<p>-Aid in any technical difficulties such as calibration, infill suggestions, and Filament changes</p>
-		<p>-Oversee projects and offer design advice to ensure stability of the print</p>	
+				<ul>
+					<li>-Monitor 3d printer usage</li>
+					<li>-Aid in any technical difficulties such as calibration, infill suggestions, and Filament changes</li>
+					<li>-Oversee projects and offer design advice to ensure stability of the print</li>	
+				</ul>
       </li>
     </ul>
+	</section>
 	
-	<h3>Education</h3>
+	<section id="education">
+		<h3>Education</h3>
     <ul>
       <li>
         <h4>Bachelor of Science, Information Technology Management</h4>
@@ -50,15 +65,18 @@
         <p>AUG 2021 - DEC 2025</p>
       </li>
     </ul>
+	</section>
 	
-	<h3>Skills</h3>
+	 <section id="skills">
+		<h3>Skills</h3>
     <ul>
       <li>Programming Languages: Python,Java,HTML,SQL </li>
       <li>Technology:TinkerCad</li>
       <li>Working Knowledge:Git,Linux,CSS</li>
-	  <li>Other: Proficient in MS Office Suit, Google Suit</li>
-	  <li>Languages: English, Urdu</li>
+			<li>Other: Proficient in MS Office Suit, Google Suit</li>
+			<li>Languages: English, Urdu</li>
     </ul>
-	
-  </body>
- </html>
+	</section>
+</main>
+ </body>
+</html>
