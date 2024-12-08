@@ -1,4 +1,3 @@
-/* Reset some default styles for consistency across browsers */
 * {
   margin: 0;
   padding: 0;
@@ -6,152 +5,86 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;  /* Imported font */
-  background-color: #f4f4f4;
-  color: #333;
-}
-
-/* Reset for lists and links */
-ul {
-  list-style-type: none;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-/* Global Styles */
-body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', Arial, sans-serif; /* Imported font with fallback */
   line-height: 1.6;
-  background-color: #fff;
-  color: #333;
+  margin: 0;
+  background-color: #f4f4f9; /* Light background for the page */
+  color: #333; /* Dark gray text */
+  padding: 0 2rem; /* Add some padding to the content */
 }
 
-/* Navigation Bar */
-#main-navbar {
-  background-color: #006600;
-  padding: 10px;
+header {
+  background-color: #004d40; /* Dark green background */
+  padding: 1em 0;
+}
+
+header nav ul {
+  list-style: none;
   text-align: center;
 }
 
-#main-navbar ul {
-  list-style-type: none;
+header nav ul li {
+  display: inline-block;
+  margin: 0 1em;
 }
 
-#main-navbar ul li {
-  display: inline;
-  margin-right: 20px;
-}
-
-#main-navbar ul li a {
-  color: white;
+header nav ul li a {
+  text-decoration: none;
+  color: #fff; /* White text for links */
   font-weight: bold;
-  padding: 5px 10px;
+  padding: 0.5em 1em;
+  border-radius: 5px;
 }
 
-#main-navbar ul li a:hover {
-  background-color: #004400;
+header nav ul li a:hover {
+  background-color: #00796b; /* Teal color on hover */
 }
 
-/* Headings */
-h1, h2, h3, h4 {
-  font-family: 'Arial', sans-serif;
-  color: #333;
+#active-link {
+  background-color: #00796b; /* Highlight the active link */
+  border: 2px solid #004d40;
+}
+
+main {
+  max-width: 800px; /* Limit content width */
+  margin: 2rem auto; /* Center content */
+}
+
+main h1 {
+  font-size: 2.5rem;
+  color: #004d40; /* Match header color */
   text-align: center;
+  margin-bottom: 1rem;
 }
 
-h1 {
-  font-size: 2.5em;
-  color: #004400;
+main h4 {
+  font-size: 1.5rem;
+  color: #00796b;
+  margin-top: 2rem;
 }
 
-h2 {
-  font-size: 2em;
-  color: #006600;
+main p {
+  font-size: 1rem;
+  margin: 1rem 0;
 }
 
-h3 {
-  font-size: 1.5em;
-  color: #007700;
-}
-
-/* General Layout */
-p {
-  font-size: 1.1em;
-  margin: 20px 0;
-}
-
-ul {
-  padding: 10px;
-}
-
-ul li {
-  margin: 10px 0;
-}
-
-/* Link Styling */
-a {
-  color: #006600;
-}
-
-a:hover {
-  color: #004400;
-}
-
-/* Styling Images */
 img {
-  border: 3px solid #006600;
-  border-radius: 10px;
-  margin: 10px 0;
+  width: 100%;
+  height: auto;
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
 }
 
-/* Specific styles for Hobbies page */
-
-/* General Layout for Hobbies Section */
-#hobbies-content {
-  background-color: #eef9f0;
-  padding: 20px;
-  border-left: 4px solid #006600;
-  margin-top: 20px;
-}
-
-/* Center content like video */
 #center {
   text-align: center;
-  margin: 20px 0;
+  margin: 2rem 0;
 }
 
 iframe {
-  border-radius: 10px;
-}
-
-/* Styling the hobbies section */
-h4 {
-  color: #004400;
-  font-size: 1.8em;
-  margin-top: 20px;
-  font-weight: bold;
-}
-
-/* Styling the paragraph under each hobby */
-p {
-  font-size: 1.1em;
-  color: #555;
-  margin-bottom: 20px;
-}
-
-/* Image Styling */
-img {
-  display: block;
-  margin: 20px auto;
-  border: 3px solid #006600;
-  border-radius: 10px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 600px; /* Maintain fluid layout */
+  height: 350px;
+  border: none;
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
 }
